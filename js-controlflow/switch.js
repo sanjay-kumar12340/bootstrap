@@ -46,13 +46,16 @@ else{
 }
 
 
-if(userEmail.length === 0){
+if(userEmail.length === 0){ // empty array define ececute
     console.log("array is empty");
     
 }
-else{
-    console.log("don't have user Email");
-     
- }
+const emptyobj = {}
+if(Object.keys(emptyobj).length === 0){
+    console.log("object is empty");
+    
+
+}
+
  
  
